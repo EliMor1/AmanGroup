@@ -31,11 +31,11 @@ To upload a file to the S3 bucket, use the following REST API method:
 **Request Body:**
 JSON
 {
-    "bucketName": "<your bucket name>",
-    "filePath": "<your file path>"
+    "bucketName": "your bucket name",
+    "filePath": "your file path"
 }
 
-Replace <your bucket name> with the name of your S3 bucket and <your file path> with the path of the file you want to upload.
+Replace "your bucket name" with the name of your S3 bucket and "your file path" with the path of the file you want to upload.
 The file must be stored in the files folder in order to read it's directory name and path correctly.
 
 ### Fetching a File from S3 Bucket
@@ -47,11 +47,11 @@ To fetch a file from S3 bucket, use the following REST API method:
 **Request Body:**
 JSON
 {
-    "bucketName": "<your bucket name>",
-    "fileName": "<your file name>"
+    "bucketName": "your bucket name",
+    "fileName": "your file name"
 }
 
-Replace <your bucket name> with the name of your S3 bucket and <your file name> with the name of the file you want to fetch.
+Replace "your bucket name" with the name of your S3 bucket and "your file name" with the name of the file you want to fetch.
 
 
 ## Permissions
