@@ -1,0 +1,21 @@
+openapi: 3.0.0
+info:
+  title: Sample API
+  description: A sample API to illustrate Swagger documentation
+  version: 1.0.0
+paths:
+  /items:
+    post:
+      summary: Create a new item
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                name:
+                  type: string
+      responses:
+        '200':
+          description: Item created successfully
