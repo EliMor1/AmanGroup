@@ -12,6 +12,7 @@
 ## Installation
 
 To install all dependencies, navigate to root directory and run npm install
+To run the project run node index.js
 
 ## Features
 
