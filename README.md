@@ -1,6 +1,6 @@
-# Project Name
 
-A simple project purposed to integrate to S3 bucket for upload and fetch files.
+
+# A simple project purposed to integrate to S3 bucket for upload and fetch files.
 
 ## Table of Contents
 
@@ -8,7 +8,6 @@ A simple project purposed to integrate to S3 bucket for upload and fetch files.
 - [Features](#features)
 - [Usage](#usage)
 - [Permissions](#permissions)
-- [License](#license)
 
 ## Installation
 
